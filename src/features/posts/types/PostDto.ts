@@ -1,5 +1,4 @@
-export default interface Post {
-	id: number;
+export default interface PostDto {
 	title: string;
 	body: string;
 	userId?: number;

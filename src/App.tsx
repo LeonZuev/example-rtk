@@ -6,6 +6,7 @@ import { Route, Routes } from 'react-router-dom';
 import Layout from './components/Layout/Layout';
 import Home from './components/Home/Home';
 import PostsPage from './features/posts/PostsPage';
+import PostsForm from './features/posts/PostForm';
 
 function App(): JSX.Element {
 	return (
@@ -15,6 +16,7 @@ function App(): JSX.Element {
 				<Route path="/counter" element={<Counter />} />
 				<Route path="/products" element={<Products />} />
 				<Route path="/posts" element={<PostsPage />} />
+				<Route path="/posts/create" element={<PostsForm />} />
 			</Route>
 		</Routes>
 	);

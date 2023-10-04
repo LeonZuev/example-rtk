@@ -7,6 +7,7 @@ export default function NavBar(): JSX.Element {
 			<NavLink to="counter">Counter</NavLink>
 			<NavLink to="products">Products</NavLink>
 			<NavLink to="posts">Posts</NavLink>
+			<NavLink to="posts/create">Post creation</NavLink>
 			<NavLink to="/">Home</NavLink>
 		</nav>
 	);
